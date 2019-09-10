@@ -11,14 +11,14 @@ p{
 .container{
    
     width: 100%;
-    height: 800px;
+    height: auto;
     margin-top: -2%;
     
 }
 .container1{
    
     width: 100%;
-    height: 351px;
+    height: auto;
     background-color: black;
     
 }

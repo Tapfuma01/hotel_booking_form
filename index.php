@@ -262,6 +262,7 @@ session_start();
                                     </div>
                     </div>
                     </div>
+                    <!---PHP SECTION--->
 
 <?php
 require_once "connect.php";

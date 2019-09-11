@@ -12,7 +12,7 @@ $conn =  new mysqli("localhost", "root", "", "hotels");
 if ($conn->connect_error){
     die("Connection failed:". $conn->connect_error);
 }
-echo "";// het die net niks gemaak nie anders wys dit heeltyd op my form
+echo "";
 
 
 

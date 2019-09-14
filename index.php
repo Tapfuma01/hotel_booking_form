@@ -11,7 +11,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
             <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Bootstrap core CSS -->
@@ -34,7 +34,7 @@ session_start();
         <!--HOTEL IMAGES AND PRICES-->
     <div class="container">
             <div class="row text-">
-              <div class="col-md-6">
+              <div class="col-md-12">
                <!--Carousel Wrapper-->
 <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
         <!--Indicators-->
@@ -42,6 +42,7 @@ session_start();
           <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-1z" data-slide-to="1"></li>
           <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+          <li data-target="#carousel-example-1z" data-slide-to="3"></li>
         </ol>
         <!--/.Indicators-->
         <!--Slides-->
@@ -61,6 +62,9 @@ session_start();
             <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(137).jpg" alt="Third slide">
           </div>
           <!--/Third slide-->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(136).jpg" alt="Second slide">
+          </div>
         </div>
         <!--/.Slides-->
         <!--Controls-->
@@ -82,168 +86,78 @@ session_start();
             <h5 class="indigo-text"><strong>R1200/nite</strong></h5>
           </div>
               </div>
-              <div class="col-md-6">
-                <!--Carousel Wrapper-->
-<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-          <!--First slide-->
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(141).jpg" alt="First slide">
-          </div>
-          <!--/First slide-->
-          <!--Second slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(136).jpg" alt="Second slide">
-          </div>
-          <!--/Second slide-->
-          <!--Third slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(137).jpg" alt="Third slide">
-          </div>
-          <!--/Third slide-->
-        </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-        <!--/.Controls-->
-      </div>
-      <!--/.Carousel Wrapper-->
-         <!--Card content-->
-      <div class="card-body card-body-cascade text-center">
-            <!--Title-->
-            <h4 class="card-title"><strong>PROTEA HOTEL</strong></h4>
-            <h5 class="indigo-text"><strong>R1200/nite</strong></h5>
-          </div>
-              </div>
-            </div>
-          </div>
-            
-          <div class="container">
-                <div class="row">
-                  <div class="col-md-6">
-                 <!--Carousel Wrapper-->
-<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-          <!--First slide-->
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(141).jpg" alt="First slide">
-          </div>
-          <!--/First slide-->
-          <!--Second slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(136).jpg" alt="Second slide">
-          </div>
-          <!--/Second slide-->
-          <!--Third slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(137).jpg" alt="Third slide">
-          </div>
-          <!--/Third slide-->
-        </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-        <!--/.Controls-->
-      </div>
-      <!--/.Carousel Wrapper-->
-       <!--Card content-->
-       <div class="card-body card-body-cascade text-center">
-            <!--Title-->
-            <h4 class="card-title"><strong>PROTEA HOTEL</strong></h4>
-            <h5 class="indigo-text"><strong>R1200/nite</strong></h5>
-          </div>
-                  </div>
-                  <div class="col-md-6">
-                    <!--Carousel Wrapper-->
-<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-          <!--First slide-->
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(141).jpg" alt="First slide">
-          </div>
-          <!--/First slide-->
-          <!--Second slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(136).jpg" alt="Second slide">
-          </div>
-          <!--/Second slide-->
-          <!--Third slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(137).jpg" alt="Third slide">
-          </div>
-          <!--/Third slide-->
-        </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-        <!--/.Controls-->
-      </div>
-      <!--/.Carousel Wrapper-->
-       <!--Card content-->
-       <div class="card-body card-body-cascade text-center">
-            <!--Title-->
-            <h4 class="card-title"><strong>PROTEA HOTEL</strong></h4>
-            <h5 class="indigo-text"><strong>R1200/nite</strong></h5>
-          </div>
+              
                   </div>
                 </div>
               </div>
              
               <!--HOTEL USER INPUT FIELD-->
               <h2 class="text-center">BOOK HERE</h2>
-    <div class="container1">
+  
+    <div class="container">
+  <!--Section: Live preview-->
+<section class="form-dark">
+
+<!--Form without header-->
+<div class="card card-image"
+  style="background-image: url('https://image.freepik.com/free-photo/woman-reception-hotel-checking_95419-4849.jpg'); width: 28rem;">
+  <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+
+    <!--Header-->
+    <div class="text-center">
+      <h3 class="white-text mb-5 mt-4 font-weight-bold"><strong>BOOKING</strong> <a
+          class="green-text font-weight-bold"><strong> FORM</strong></a></h3>
+    </div>
+
+    <!--Body-->
+    <div class="md-form">
+      <input type="text" id="Form-email5" class="form-control white-text">
+      <label for="Form-email5">Your email</label>
+    </div>
+    
+    
+
+    <div class="md-form pb-3">
+      <input type="password" id="Form-pass5" class="form-control white-text">
+      <label for="Form-pass5">Your password</label>
+      <div class="form-check my-4">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck17">
+        <label class="form-check-label white-text" for="defaultCheck17">Accept the<a href="#"
+            class="green-text font-weight-bold"> Terms and Conditions</a></label>
+      </div>
+    </div>
+
+    <!--Grid row-->
+    <div class="row d-flex align-items-center mb-4">
+
+      <!--Grid column-->
+      <div class="text-center mb-3 col-md-12">
+        <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">SUBMIT</button>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+
+    <!--Grid column-->
+    <div class="col-md-12">
+      <p class="font-small white-text d-flex justify-content-end">Have an account? <a href="#"
+          class="green-text ml-1 font-weight-bold"> Log in</a></p>
+    </div>
+    <!--Grid column-->
+
+  </div>
+</div>
+<!--/Form without header-->
+
+</section>
+<!--Section: Live preview-->
             <div class="row one">
                     <div class="col-md-6">
                             <div id='form'>
                                     <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
                                     
                                     <label>First Name<input type="text" name="firstname" placeholder='First Name' required></label><br>
-                                    <label>Surname<input type="text" name="surname"placeholder='Surname' required></label><br>
+                                    
                                     <label>Hotel Name
                                     <select name="hotelname" required>
                                       <option value="Holiday Inn">Holiday Inn</option>
@@ -262,7 +176,8 @@ session_start();
                                     </div>
                     </div>
                     </div>
-                    <!---PHP SECTION--->
+                        <div class="col-md-6">
+                                             <!---PHP SECTION--->
 
 <?php
 require_once "connect.php";
@@ -313,11 +228,11 @@ if (isset($_POST['submit'])) {
 
 //display booking info to user
 
-echo "<br> Firstname:".  $_SESSION['firstname']."<br>".
-"surname:".  $_SESSION['surname']."<br>".
-"Start Date:". $_SESSION['indate']."<br>".
-"End Date:". $_SESSION['outdate']."<br>".
-"Hotel Name:". $_SESSION['hotelname']."<br>";
+// echo "<br> Firstname:".  $_SESSION['firstname']."<br>".
+// "surname:".  $_SESSION['surname']."<br>".
+// "Start Date:". $_SESSION['indate']."<br>".
+// "End Date:". $_SESSION['outdate']."<br>".
+// "Hotel Name:". $_SESSION['hotelname']."<br>";
 
 
 //calculate duration of user's stay at hotel
@@ -329,12 +244,13 @@ $interval->format('%d');
 
 $checkInStamp = strtotime($_SESSION['indate']);
         $checkOutStamp = strtotime($_SESSION['outdate']);
+        
         // echo $checkInStamp . '<br>';
-        // echo $checkOutStamp;
-        if ($checkInStamp - $checkOutStamp > 86400 || $checkInStamp == $checkOutStamp) {
-            header("Location: ?error=timestamp");
-            exit;
-        }
+        //  echo $checkOutStamp;
+        // if ($checkInStamp - $checkOutStamp > 86400 || $checkInStamp == $checkOutStamp) {
+        //     header("Location: ?error=timestamp");
+        //     exit;
+        // }
 
 $daysbooked = $interval->format('%d');
 $value;
@@ -386,7 +302,7 @@ echo '<div class="return">'. "<br> Firstname:".  $_SESSION['firstname']."<br>".
 echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'>
 <button name='confirm' type='submit'> Confirm </button> </form>".'</div>';
 
-//echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'><input type='submit' name='confirm'>.'Confirm'.</form>";
+echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'><input type='submit' name='confirm'>.'Confirm'.</form>";
 
 }
 
@@ -420,6 +336,7 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 
 
 ?>
+                        </div>
                   </div>
 
     </div>

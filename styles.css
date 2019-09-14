@@ -29,10 +29,6 @@ p{
    
    
 }
-
-    
-
-
 #form{
     margin-top: 5%;
     margin-left:32%;
@@ -61,6 +57,57 @@ input {
     padding: 5px 15px;
     
 }
+
+
+.duplicate{
+    border-style: solid;
+   background:rgb(195, 188, 214);
+   margin-top: 2%;
+    margin-left:0%;
+    margin-right:10%;
+    float:right;
+    
+}
+
+.return{
+    border-style: solid;
+   background:aquamarine;
+   margin-top: 5%;
+    margin-left:0%;
+    margin-right:15%;
+    float:right;
+    
+}
+
+
+
+button{
+    background:grey;
+    width: 40%;
+    padding: 5px 15px;
+    margin-left:35%;
+}
+
+
+#confirmed{
+    margin-top: 5%;
+    margin-left:0%;
+    margin-right:10%;
+    border: 0.4rem;
+    float: right;;
+    color:black;
+    background: gray;
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation:blinkingText 0.8s;
+    animation-iteration-count: 5;
+}
+
+    
+
+
+}
+
 
 
   

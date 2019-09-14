@@ -111,20 +111,29 @@ session_start();
     </div>
 
     <!--Body-->
-    <div class="md-form pb-3">
-      
+    <div class="md-form">
+    <input type="text" name="firstname"  required class="form-control white-text">
+    <label>First Name</label>
+    </div>
+    <div class="md-form">
+    <input type="text" name="surname"  required class="form-control white-text">
+    <label>Surname</label>
     </div>
     <div class="md-form pb-3">
-      
-    </div>
-    <div class="md-form pb-3">
-      
+    <label>Hotel Name
+                                    <select name="hotelname" required>
+                                      <option value="Holiday Inn">Holiday Inn</option>
+                                      <option value="Radison">Radison</option>
+                                      <option value="City Lodge">City Lodge</option>
+                                      <option value="Town Lodge">Town Lodge</option>
+                                    </select>
+                                    </label><br>
     </div>
     <div class="md-form pb-3">
       
     </div>
 </form>
-</div>
+
     
 
     <div class="md-form pb-3">
@@ -157,6 +166,7 @@ session_start();
 
   </div>
 </div>
+</div>
 <!--/Form without header-->
 
 </section>
@@ -174,6 +184,7 @@ session_start();
                                     <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
                                     
                                     <label>First Name<input type="text" name="firstname" placeholder='First Name' required></label><br>
+                                    <label>First Name<input type="text" name="surname" placeholder='Surname' required></label><br>
                                     
                                     <label>Hotel Name
                                     <select name="hotelname" required>

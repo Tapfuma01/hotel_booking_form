@@ -34,7 +34,7 @@ session_start();
         <!--HOTEL IMAGES AND PRICES-->
     <div class="container">
             <div class="row text-">
-            <div class="col-md-8">
+            <div class="col-md-6">
               <!--Carousel Wrapper-->
 <div id="carousel" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
         <!--Indicators-->
@@ -94,12 +94,14 @@ session_start();
       <!--/.Carousel Wrapper-->
             </div>
             <div class="col-md-4">
+            <div id='form'>
+                <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
            <!--Section: Live preview-->
 <section class="form-dark">
 
 <!--Form without header-->
 <div class="card card-image"
-  style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table7.jpg'); width: 28rem;">
+  style="background-image: url('https://image.freepik.com/free-photo/home-house-exterior-design-showing-tropical-pool-villa-with-sun-bed_41487-564.jpg'); width: 28rem;"class="img-fluid">
   <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
 
     <!--Header-->
@@ -109,11 +111,20 @@ session_start();
     </div>
 
     <!--Body-->
-    <div class="md-form">
-      <input type="text" id="Form-email5" class="form-control white-text">
-      <label for="Form-email5">Your email</label>
+    <div class="md-form pb-3">
+      
     </div>
-    
+    <div class="md-form pb-3">
+      
+    </div>
+    <div class="md-form pb-3">
+      
+    </div>
+    <div class="md-form pb-3">
+      
+    </div>
+</form>
+</div>
     
 
     <div class="md-form pb-3">

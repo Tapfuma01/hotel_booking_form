@@ -101,7 +101,7 @@ session_start();
 
 <!--Form without header-->
 <div class="card card-image"
-  style="background-image: url('https://image.freepik.com/free-photo/home-house-exterior-design-showing-tropical-pool-villa-with-sun-bed_41487-564.jpg'); width: 28rem;"class="img-fluid">
+  style="background-image: url('https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); width: 28rem;"class="img-fluid">
   <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
 
     <!--Header-->
@@ -111,27 +111,34 @@ session_start();
     </div>
 
     <!--Body-->
-    <div class="md-form">
-    <input type="text" name="firstname"  required class="form-control white-text">
+    <div>
     <label>First Name</label>
+    <input type="text" name="firstname"  required class="form-control white-text">
+    </div>
+    <div>
+    <label>Surname</label>
+    <input type="text" name="surname"  required class="form-control white-text">
     </div>
     <div class="md-form">
-    <input type="text" name="surname"  required class="form-control white-text">
-    <label>Surname</label>
-    </div>
-    <div class="md-form pb-3">
-    <label>Hotel Name
+    <label class="white-text">Hotel Name
                                     <select name="hotelname" required>
                                       <option value="Holiday Inn">Holiday Inn</option>
                                       <option value="Radison">Radison</option>
                                       <option value="City Lodge">City Lodge</option>
                                       <option value="Town Lodge">Town Lodge</option>
                                     </select>
-                                    </label><br>
+                                    </label>
     </div>
-    <div class="md-form pb-3">
-      
+    <br>
+    <div class="md-form">
+   <input type="date" name="indate" placeholder='indate' required class="form-control white-text" >
+   <label>In Date</label>
     </div>
+    <div class="md-form">
+       <input type="date" name="outdate" placeholder='outdate' required class="form-control white-text">
+       <label>Out Date</label>
+       </div>
+   </form>
 </form>
 
     

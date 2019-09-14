@@ -34,7 +34,7 @@ session_start();
         <!--HOTEL IMAGES AND PRICES-->
     <div class="container">
             <div class="row text-">
-            <div class="col-md-6">
+            <div class="col-md-8">
               <!--Carousel Wrapper-->
 <div id="carousel" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
         <!--Indicators-->
@@ -48,7 +48,7 @@ session_start();
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
             <div class="view">
-              <img class="d-block w-100" src="images/new-sneakers.jpg" alt="First slide">
+              <img class="d-block w-100" src="https://image.freepik.com/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.jpg" alt="First slide">
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
@@ -59,7 +59,7 @@ session_start();
           <div class="carousel-item">
             <!--Mask color-->
             <div class="view">
-              <img class="d-block w-100" src="images/groom-s-shoes.jpg" alt="Second slide">
+              <img class="d-block w-100" src="https://image.freepik.com/free-photo/sunset-pool_1203-3192.jpg" alt="Second slide">
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
@@ -70,7 +70,7 @@ session_start();
           <div class="carousel-item">
             <!--Mask color-->
             <div class="view">
-              <img class="d-block w-100" src="images/brown-stylish-boots.jpg" alt="Third slide">
+              <img class="d-block w-100" src="https://image.freepik.com/free-photo/umbrella-chair-around-swimming-pool_74190-4618.jpg" alt="Third slide">
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
@@ -93,10 +93,21 @@ session_start();
       </div>
       <!--/.Carousel Wrapper-->
             </div>
-            <div class="col-md-6">
-            </div>
-            </div> 
-    </div> 
+            <div class="col-md-4">
+           <!--Section: Live preview-->
+<section class="form-dark">
+
+<!--Form without header-->
+<div class="card card-image"
+  style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table7.jpg'); width: 28rem;">
+  <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+
+    <!--Header-->
+    <div class="text-center">
+      <h3 class="white-text mb-5 mt-4 font-weight-bold"><strong>BOOKING</strong> <a
+          class="green-text font-weight-bold"><strong> FORM</strong></a></h3>
+    </div>
+
     <!--Body-->
     <div class="md-form">
       <input type="text" id="Form-email5" class="form-control white-text">
@@ -137,6 +148,13 @@ session_start();
 </div>
 <!--/Form without header-->
 
+</section>
+<!--Section: Live preview-->
+
+            </div>
+            </div> 
+    </div> 
+    
 </section>
 <!--Section: Live preview-->
             <div class="row one">

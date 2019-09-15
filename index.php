@@ -11,7 +11,10 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
+    
+    
             <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Bootstrap core CSS -->
@@ -29,12 +32,21 @@ session_start();
     <title>Document</title>
 </head>
 <body>
-    <h1>HOTEL BOOKING FORM</h1>
+  <!-- As a heading -->
+<nav class="navbar navbar">
+<div class="text-center">
+      <h3 class="white-text font-weight-bold"><strong>tapfHOTEL</strong> <a
+          class="blue-text font-weight-bold"><strong> BOOKING</strong></a></h3>
+    </div>
+
+
+</nav>
+   
         <br>
         <!--HOTEL IMAGES AND PRICES-->
     <div class="container">
             <div class="row text-">
-            <div class="col-md-6">
+            <div class="col-md-4">
               <!--Carousel Wrapper-->
 <div id="carousel" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
         <!--Indicators-->
@@ -101,13 +113,12 @@ session_start();
 
 <!--Form without header-->
 <div class="card card-image"
-  style="background-image: url('https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); width: 28rem;"class="img-fluid">
-  <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
-
+  style="background-image: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width: 28rem;"class="img-fluid">
+  <div class="text-white rgba-stylish-strong py-5 px-5">
     <!--Header-->
     <div class="text-center">
-      <h3 class="white-text mb-5 mt-4 font-weight-bold"><strong>BOOKING</strong> <a
-          class="green-text font-weight-bold"><strong> FORM</strong></a></h3>
+      <h3 class="blue-text font-weight-bold"><strong>BOOKING</strong> <a
+          class="white-text font-weight-bold"><strong> FORM</strong></a></h3>
     </div>
 
     <!--Body-->
@@ -119,7 +130,8 @@ session_start();
     <label>Surname</label>
     <input type="text" name="surname"  required class="form-control white-text">
     </div>
-    <div class="md-form">
+    <div>
+      <br>
     <label class="white-text">Hotel Name
                                     <select name="hotelname" required>
                                       <option value="Holiday Inn">Holiday Inn</option>
@@ -129,49 +141,22 @@ session_start();
                                     </select>
                                     </label>
     </div>
-    <br>
-    <div class="md-form">
+    <div>
+    <label>In Date</label>
    <input type="date" name="indate" placeholder='indate' required class="form-control white-text" >
-   <label>In Date</label>
     </div>
-    <div class="md-form">
+    <div>
+    <label>Out Date</label>
        <input type="date" name="outdate" placeholder='outdate' required class="form-control white-text">
-       <label>Out Date</label>
        </div>
-   </form>
-</form>
-
-    
-
-    <div class="md-form pb-3">
-      <input type="password" id="Form-pass5" class="form-control white-text">
-      <label for="Form-pass5">Your password</label>
-      <div class="form-check my-4">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck17">
-        <label class="form-check-label white-text" for="defaultCheck17">Accept the<a href="#"
-            class="green-text font-weight-bold"> Terms and Conditions</a></label>
-      </div>
-    </div>
-
-    <!--Grid row-->
-    <div class="row d-flex align-items-center mb-4">
-
-      <!--Grid column-->
-      <div class="text-center mb-3 col-md-12">
-        <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">SUBMIT</button>
+        <button type="button" class="btn btn-primary btn-block btn-rounded z-depth-1">SUBMIT</button>
       </div>
       <!--Grid column-->
     </div>
-    <!--Grid row-->
-
-    <!--Grid column-->
-    <div class="col-md-12">
-      <p class="font-small white-text d-flex justify-content-end">Have an account? <a href="#"
-          class="green-text ml-1 font-weight-bold"> Log in</a></p>
+            </form>
+      </div>
     </div>
-    <!--Grid column-->
 
-  </div>
 </div>
 </div>
 <!--/Form without header-->
@@ -185,34 +170,7 @@ session_start();
     
 </section>
 <!--Section: Live preview-->
-            <div class="row one">
-                    <div class="col-md-6">
-                            <div id='form'>
-                                    <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
-                                    
-                                    <label>First Name<input type="text" name="firstname" placeholder='First Name' required></label><br>
-                                    <label>First Name<input type="text" name="surname" placeholder='Surname' required></label><br>
-                                    
-                                    <label>Hotel Name
-                                    <select name="hotelname" required>
-                                      <option value="Holiday Inn">Holiday Inn</option>
-                                      <option value="Radison">Radison</option>
-                                      <option value="City Lodge">City Lodge</option>
-                                      <option value="Town Lodge">Town Lodge</option>
-                                    </select>
-                                    </label><br>
-                                    
-                                    <label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
-                                    <label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
-                                    <button class="submit" name="submit" type="submit">Submit</button>
-                                    
-                                    
-                                    </form>
-                                    </div>
-                    </div>
-                    </div>
-                        <div class="col-md-6">
-                                             <!---PHP SECTION--->
+            
 
 <?php
 require_once "connect.php";

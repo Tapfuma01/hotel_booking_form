@@ -1,10 +1,13 @@
 body{
-    background-color:gray;
-    background-image: url(https://images.pexels.com/photos/1985167/pexels-photo-1985167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    background-color:lavender;
+    background-image: url(https://images.pexels.com/photos/1579062/pexels-photo-1579062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    font-family: 'Fjalla One';
 }
 h1 {
     text-align: center;
     color:black;
+    
 }
 p{
     color: white;
@@ -14,36 +17,40 @@ p{
     width: 100%;
     height: auto;
     justify-content: center;
+    font-family: 'Fjalla One';
+   
   
    
 }
 .container1{
-   
+  
     width: 100%;
     height: auto;
-    background:url(https://images.pexels.com/photos/1985167/pexels-photo-1985167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+    margin-left: 10%;
+  
  
     
 }
+   nav.navbar{
+    background:rgba(62,69,81,.7);
+    background: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+   }
    
-   
-}
-
-
-}
 
 input {
     width: 100%;
     padding: 5px 15px;
     margin: 4px 0;
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 0.5rem;
+    font-family: 'Candal';
   }
 
 .submit{
     background:grey;
     width: 30%;
     padding: 5px 15px;
+    font-family: 'Candal';
     
 }
 
@@ -55,6 +62,7 @@ input {
     margin-left:0%;
     margin-right:10%;
     float:right;
+    font-family: 'Candal';
     
 }
 
@@ -65,6 +73,7 @@ input {
     margin-left:0%;
     margin-right:15%;
     float:right;
+    font-family: 'Candal';
     
 }
 
@@ -75,6 +84,7 @@ button{
     width: 40%;
     padding: 5px 15px;
     margin-left:35%;
+    font-family: 'Candal';
 }
 
 
@@ -90,11 +100,7 @@ button{
     font-weight: bold;
     animation:blinkingText 0.8s;
     animation-iteration-count: 5;
-}
-
-    
-
-
+    font-family: 'Candal';
 }
 
 

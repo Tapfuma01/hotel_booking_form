@@ -107,7 +107,7 @@ session_start();
             </div>
             <div class="col-md-4">
             <div id='form'>
-                <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+           
            <!--Section: Live preview-->
 <section class="form-dark">
 
@@ -117,20 +117,17 @@ session_start();
   <div class="text-white rgba-stylish-strong py-5 px-5">
     <!--Header-->
     <div class="text-center">
-      <h3 class="blue-text font-weight-bold"><strong>BOOKING</strong> <a
-          class="white-text font-weight-bold"><strong> FORM</strong></a></h3>
+      <h3 class="white-text font-weight-bold"><strong>BOOKING</strong> <a
+          class="blue-text font-weight-bold"><strong> FORM</strong></a></h3>
     </div>
 
     <!--Body-->
-    <div>
+    <div id='form'>
+    <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
     <label>First Name</label>
     <input type="text" name="firstname"  required class="form-control white-text">
-    </div>
-    <div>
     <label>Surname</label>
     <input type="text" name="surname"  required class="form-control white-text">
-    </div>
-    <div>
       <br>
     <label class="white-text">Hotel Name
                                     <select name="hotelname" required>
@@ -139,20 +136,16 @@ session_start();
                                       <option value="City Lodge">City Lodge</option>
                                       <option value="Town Lodge">Town Lodge</option>
                                     </select>
-                                    </label>
-    </div>
-    <div>
+                                    </label><br>
     <label>In Date</label>
    <input type="date" name="indate" placeholder='indate' required class="form-control white-text" >
-    </div>
-    <div>
     <label>Out Date</label>
        <input type="date" name="outdate" placeholder='outdate' required class="form-control white-text">
-       </div>
+       <br>
         <button type="button" class="btn btn-primary btn-block btn-rounded z-depth-1">SUBMIT</button>
-      </div>
+    
       <!--Grid column-->
-    </div>
+  
             </form>
       </div>
     </div>

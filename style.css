@@ -27,10 +27,7 @@ p{
   
     width: 100%;
     height: auto;
-    margin-left: 10%;
-  
  
-    
 }
    nav.navbar{
     background:rgba(62,69,81,.7);
@@ -114,7 +111,14 @@ button{
     font-family: 'Fjalla One';
    
 }
-
-
+div.footer{
+    background: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: blue;
+    background: url();
+ 
+}
 
   

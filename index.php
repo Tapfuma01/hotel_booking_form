@@ -318,8 +318,20 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
                   </div>
 
     </div>
+    <!-- Footer Elements -->
+<div class="container1">
+  <div row></div>
+<!-- Social buttons -->
+<!--Facebook-->
+<button type="button" class="btn btn-fb"><i class="fab fa-facebook-f "></i><strong>FACEBOOK</strong></button>
+<!--Twitter-->
+<button type="button" class="btn btn-tw"><i class="fab fa-twitter "></i> <strong>TWITTER</strong></button>
+<!-- Social buttons -->
+  </div>
+</div>
+<!-- Footer Elements -->
     <!-- Footer -->
-<footer class="page-footer fixed-bottom font-small blue">
+<footer class="page-footer fixed-bottom ">
 
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">© 2019 Copyright:

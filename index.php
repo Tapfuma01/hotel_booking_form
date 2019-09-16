@@ -11,7 +11,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
     
     
@@ -35,7 +35,7 @@ session_start();
   <!-- As a heading -->
 <nav class="navbar navbar">
 <div class="text-center">
-      <h3 class="white-text font-weight-bold"><strong>tapfHOTEL</strong> <a
+      <h3 class="white-text weight-bold"><strong>tapfHOTEL</strong> <a
           class="blue-text font-weight-bold"><strong> BOOKING</strong></a></h3>
     </div>
 
@@ -54,6 +54,7 @@ session_start();
           <li data-target="#carousel" data-slide-to="0" class="active"></li>
           <li data-target="#carousel" data-slide-to="1"></li>
           <li data-target="#carousel" data-slide-to="2"></li>
+          <li data-target="#carousel" data-slide-to="3"></li>
         </ol>
         <!--/.Indicators-->
         <!--Slides-->
@@ -218,16 +219,7 @@ $interval = $datetime1->diff($datetime2);
 
 $interval->format('%d');
 
-$checkInStamp = strtotime($_SESSION['indate']);
-        $checkOutStamp = strtotime($_SESSION['outdate']);
-        
-         //echo $checkInStamp . '<br>';
-         //echo $checkOutStamp;
-        // if ($checkInStamp - $checkOutStamp > 86400 || $checkInStamp == $checkOutStamp) {
-        //     header("Location: ?error=timestamp");
-        //     exit;
-        // }
-
+//number of days booked
 $daysbooked = $interval->format('%d');
 $value;
 
@@ -267,9 +259,9 @@ Lastname: " . $row['surname'].
     } 
 }
 
-
+//Display booking info for the user
 echo '<div class="return">'. "<br> Firstname:".  $_SESSION['firstname']."<br>".
-"surname:".  $_SESSION['surname']."<br>".
+"Surname:".  $_SESSION['surname']."<br>".
 "Start Date:". $_SESSION['indate']."<br>".
 "End Date:". $_SESSION['outdate']."<br>".
 "Hotel Name:". $_SESSION['hotelname']."".
@@ -326,6 +318,53 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
                   </div>
 
     </div>
+    <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+<!-- Footer Elements -->
+<div class="container">
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center">
+    <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+        <i class="fab fa-google-plus-g"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-li mx-1">
+        <i class="fab fa-linkedin-in"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1">
+        <i class="fab fa-dribbble"> </i>
+      </a>
+    </li>
+  </ul>
+  <!-- Social buttons -->
+
+</div>
+<!-- Footer Elements -->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2018 Copyright:
+  <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+</div>
+<!-- Copyright -->
+
+</footer>
+<!-- Footer -->
               
     
 </body>

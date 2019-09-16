@@ -3,6 +3,7 @@ body{
     background-image: url(https://images.pexels.com/photos/1579062/pexels-photo-1579062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     font-family: 'Fjalla One';
+   
 }
 h1 {
     text-align: center;
@@ -33,7 +34,9 @@ p{
 }
    nav.navbar{
     background:rgba(62,69,81,.7);
-    background: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    background: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    font-family: 'Fjalla One';
+   
    }
    
 
@@ -42,48 +45,57 @@ input {
     padding: 5px 15px;
     margin: 4px 0;
     box-sizing: border-box;
-    font-size: 0.5rem;
-    font-family: 'Candal';
+    font-size: 1rem;
+    font-family: 'Fjalla One';
+   
   }
 
 .submit{
     background:grey;
     width: 30%;
     padding: 5px 15px;
-    font-family: 'Candal';
+    font-family: 'Fjalla One';
+   
     
 }
 
 
 .duplicate{
-    border-style: solid;
-   background:rgb(195, 188, 214);
+   
+   background:url(https://images.pexels.com/photos/2820254/pexels-photo-2820254.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
    margin-top: 2%;
     margin-left:0%;
     margin-right:10%;
+    height: 300px;
+    width:300px;
     float:right;
-    font-family: 'Candal';
+    font-family: 'Fjalla One';
+   
     
 }
 
 .return{
-  
    margin-top: 0%;
     margin-left:0%;
     margin-right:15%;
     float:right;
-    font-family: 'Candal';
+    font-family:inherit;
+    font-size: 1rem;
+    line-break: auto;
+    font-family: 'Fjalla One';
+   
     
 }
 
 
 
 button{
-    background:grey;
+    background:blue;
     width: 40%;
     padding: 5px 15px;
     margin-left:35%;
-    font-family: 'Candal';
+    font-family: 'Fjalla One';
+   
 }
 
 
@@ -99,7 +111,8 @@ button{
     font-weight: bold;
     animation:blinkingText 0.8s;
     animation-iteration-count: 5;
-    font-family: 'Candal';
+    font-family: 'Fjalla One';
+   
 }
 
 

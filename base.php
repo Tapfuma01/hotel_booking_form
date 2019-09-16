@@ -16,17 +16,6 @@
   //$password="";
   //$database="hotels";
 
-  //$servername="localhost";
-  //$username="root";
-  //$password="";
-  //$database="movies";
-
-
-  //define('DB_SERVER','localhost')
-  //define('DB_USERNAME','root')
-  //define('DB_PASSWORD','password')
-  //define('DB_DATABASE','hotels')
-
   
 
 ?>

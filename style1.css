@@ -67,9 +67,8 @@ input {
 }
 
 .return{
-    border-style: solid;
-   background:aquamarine;
-   margin-top: 5%;
+  
+   margin-top: 0%;
     margin-left:0%;
     margin-right:15%;
     float:right;

@@ -64,8 +64,8 @@ session_start();
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-              <h3 class="h3-responsive">New LASER Smart-SHOES</h3>
-              <p>Simply Brilliant</p>
+              <h3 class="h3-responsive">R200</h3>
+              <p>Holiday Inn</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -75,8 +75,8 @@ session_start();
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-              <h3 class="h3-responsive">The Shiny Black SHOES</h3>
-              <p>Perfect for Weddings</p>
+              <h3 class="h3-responsive">R100</h3>
+              <p>City Logde</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -86,11 +86,12 @@ session_start();
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-              <h3 class="h3-responsive"> Vintage AFRICANA SHOES</h3>
-              <p>The Brown Shoe that every man wants</p>
+              <h3 class="h3-responsive">R150</h3>
+              <p>Town lodge</p>
             </div>
           </div>
         </div>
+        
         <!--/.Slides-->
         <!--Controls-->
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -106,8 +107,6 @@ session_start();
       <!--/.Carousel Wrapper-->
             </div>
             <div class="col-md-4">
-            <div id='form'>
-           
            <!--Section: Live preview-->
 <section class="form-dark">
 
@@ -123,48 +122,39 @@ session_start();
 
     <!--Body-->
     <div id='form'>
-    <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
-    <label>First Name</label>
-    <input type="text" name="firstname"  required class="form-control white-text">
-    <label>Surname</label>
-    <input type="text" name="surname"  required class="form-control white-text">
-      <br>
-    <label class="white-text">Hotel Name
-                                    <select name="hotelname" required>
-                                      <option value="Holiday Inn">Holiday Inn</option>
-                                      <option value="Radison">Radison</option>
-                                      <option value="City Lodge">City Lodge</option>
-                                      <option value="Town Lodge">Town Lodge</option>
-                                    </select>
-                                    </label><br>
-    <label>In Date</label>
-   <input type="date" name="indate" placeholder='indate' required class="form-control white-text" >
-    <label>Out Date</label>
-       <input type="date" name="outdate" placeholder='outdate' required class="form-control white-text">
-       <br>
-        <button type="button" class="btn btn-primary btn-block btn-rounded z-depth-1">SUBMIT</button>
-    
-      <!--Grid column-->
-  
-            </form>
-      </div>
-    </div>
+<form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
+<label>First Name<input type="text" name="firstname"  required></label><br>
+<label>Surname<input type="text" name="surname" required></label><br>
+<label>Hotel Name
+<select name="hotelname" required>
+  <option value="Holiday Inn">Holiday Inn</option>
+  <option value="Radison">Radison</option>
+  <option value="City Lodge">City Lodge</option>
+  <option value="Town Lodge">Town Lodge</option>
+</select>
+</label><br>
+
+<label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
+<label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
+<button class="submit" name="submit" type="submit">Submit</button>
+
+
+</form>
 </div>
+ </div> 
 </div>
+
+
+
 <!--/Form without header-->
 
 </section>
 <!--Section: Live preview-->
 
-            </div>
-            </div> 
-    </div> 
+    </div>
+   <div class="col-md-4">
     
-</section>
-<!--Section: Live preview-->
-            
-
 <?php
 require_once "connect.php";
 echo $conn->error;
@@ -231,8 +221,8 @@ $interval->format('%d');
 $checkInStamp = strtotime($_SESSION['indate']);
         $checkOutStamp = strtotime($_SESSION['outdate']);
         
-        // echo $checkInStamp . '<br>';
-        //  echo $checkOutStamp;
+         //echo $checkInStamp . '<br>';
+         //echo $checkOutStamp;
         // if ($checkInStamp - $checkOutStamp > 86400 || $checkInStamp == $checkOutStamp) {
         //     header("Location: ?error=timestamp");
         //     exit;
@@ -282,13 +272,15 @@ echo '<div class="return">'. "<br> Firstname:".  $_SESSION['firstname']."<br>".
 "surname:".  $_SESSION['surname']."<br>".
 "Start Date:". $_SESSION['indate']."<br>".
 "End Date:". $_SESSION['outdate']."<br>".
-"Hotel Name:". $_SESSION['hotelname']."<br>".
+"Hotel Name:". $_SESSION['hotelname']."".
+"<br>" . $interval->format('%r%a days') .
+"<br>".
 "Total R" . $value ;
 
-echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'>
-<button name='confirm' type='submit'> Confirm </button> </form>".'</div>';
+// echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'>
+// <button name='confirm' type='submit'> Confirm </button> </form>".'</div>';
 
-echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'><input type='submit' name='confirm'>.'Confirm'.</form>";
+echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'><input type='submit' name='confirm'></form>";
 
 }
 
@@ -322,7 +314,15 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 
 
 ?>
-                        </div>
+      
+  </div>
+            </div> 
+    </div> 
+    
+</section>
+<!--Section: Live preview-->
+            
+                  </div>
                   </div>
 
     </div>

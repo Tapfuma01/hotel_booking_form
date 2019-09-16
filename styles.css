@@ -27,7 +27,7 @@ p{
   
     width: 100%;
     height: auto;
- 
+    margin-bottom: 10%;
 }
    nav.navbar{
     background:rgba(62,69,81,.7);
@@ -60,28 +60,34 @@ input {
 .duplicate{
    
    background:url(https://images.pexels.com/photos/2820254/pexels-photo-2820254.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-   margin-top: 2%;
-    margin-left:0%;
-    margin-right:10%;
-    height: 300px;
-    width:300px;
-    float:right;
+   height:auto;
+    width: auto;
+    border: 0.4rem;
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    animation:blinkingText 0.8s;
+    animation-iteration-count: 5;
     font-family: 'Fjalla One';
+    background: rgba(0,0,0,0.2);
+    text-align: center;
    
     
 }
 
 .return{
-   margin-top: 0%;
-    margin-left:0%;
-    margin-right:15%;
-    float:right;
-    font-family:inherit;
-    font-size: 1rem;
-    line-break: auto;
-    font-family: 'Fjalla One';
    
-    
+    height:auto;
+    width: auto;
+    border: 0.4rem;
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    animation:blinkingText 0.8s;
+    animation-iteration-count: 5;
+    font-family: 'Fjalla One';
+    background: rgba(0,0,0,0.2);
+    text-align: center;
 }
 
 
@@ -97,28 +103,36 @@ button{
 
 
 #confirmed{
-    margin-top: 5%;
-    margin-left:0%;
-    margin-right:10%;
+    height:auto;
+    width: auto;
     border: 0.4rem;
-    float: right;;
-    color:black;
-    background: gray;
-    font-size: 1.5rem;
+    color:white;
     font-weight: bold;
+    font-size: 1.5rem;
     animation:blinkingText 0.8s;
     animation-iteration-count: 5;
     font-family: 'Fjalla One';
+    background: rgba(0,0,0,0.2);
+    text-align: center;
    
-}
+   
+}å
 div.footer{
-    background: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    
 }
 footer.page-footer .footer-copyright {
     overflow: hidden;
-    color: blue;
-    background: url();
+   
+    background: white;
+    
  
+}
+button.btn.btn{
+    background: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-top:10%;
+
 }
 
   

@@ -11,7 +11,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
     
     
@@ -61,23 +61,23 @@ session_start();
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
             <div class="view">
-              <img class="d-block w-100" src="https://image.freepik.com/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.jpg" alt="First slide">
+              <img class="d-block w-100" src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide">
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-              <h3 class="h3-responsive">R200</h3>
-              <p>Holiday Inn</p>
+              <h3 class="h3-responsive">Holiday Inn Hotel</h3>
+              <p>R200</p>
             </div>
           </div>
           <div class="carousel-item">
             <!--Mask color-->
             <div class="view">
-              <img class="d-block w-100" src="https://image.freepik.com/free-photo/sunset-pool_1203-3192.jpg" alt="Second slide">
+              <img class="d-block w-100" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Second slide">
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-              <h3 class="h3-responsive">R100</h3>
-              <p>City Logde</p>
+              <h3 class="h3-responsive">City Logde Hotel</h3>
+              <p>R400</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -87,8 +87,19 @@ session_start();
               <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-              <h3 class="h3-responsive">R150</h3>
-              <p>Town lodge</p>
+              <h3 class="h3-responsive">Town lodge Hotel</h3>
+              <p>R150</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Third slide">
+              <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">Radison Hotel</h3>
+              <p>Radison Hotel</p>
             </div>
           </div>
         </div>
@@ -113,7 +124,7 @@ session_start();
 
 <!--Form without header-->
 <div class="card card-image"
-  style="background-image: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width: 28rem;"class="img-fluid">
+  style="background-image: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;"class="img-fluid">
   <div class="text-white rgba-stylish-strong py-5 px-5">
     <!--Header-->
     <div class="text-center">
@@ -288,7 +299,7 @@ $hotelname=$_SESSION['hotelname'];
 $indate=$_SESSION['indate'];
 $outdate=$_SESSION['outdate'];
 $stmt->execute();
-echo '<div id="confirmed">'."Booking confirmed".'</div>';
+echo '<div id="confirmed">'."Thank You For Booking".'</div>';
 
 }
 
@@ -320,13 +331,21 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
     </div>
     <!-- Footer Elements -->
 <div class="container1">
-  <div row></div>
+  <div class="row">
 <!-- Social buttons -->
-<!--Facebook-->
+<div class="col-md-4">
+  <!--Facebook-->
 <button type="button" class="btn btn-fb"><i class="fab fa-facebook-f "></i><strong>FACEBOOK</strong></button>
-<!--Twitter-->
+</div>
+<div class="col-md-4">
+  <!--Twitter-->
 <button type="button" class="btn btn-tw"><i class="fab fa-twitter "></i> <strong>TWITTER</strong></button>
 <!-- Social buttons -->
+</div>
+<div class="col-md-4">
+<!---Linkedin-->
+<button type="button" class="btn btn-li"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</button>
+</div>
   </div>
 </div>
 <!-- Footer Elements -->

@@ -19,6 +19,7 @@ p{
     height: auto;
     justify-content: center;
     font-family: 'Fjalla One';
+    margin-top: 3%;
 }
 .container1{
   
@@ -40,8 +41,6 @@ input {
     margin: 4px 0;
     box-sizing: border-box;
     font-size: 1rem;
-    font-family: 'Fjalla One';
-   
   }
 
 .submit{
@@ -72,10 +71,10 @@ input {
 
 .return{
    
-    height:auto;
+    height:401.27px;
     width: auto;
     border: 0.4rem;
-    color:white;
+    color:black;
     font-weight: bold;
     font-size: 1.5rem;
     animation:blinkingText 0.8s;
@@ -115,12 +114,14 @@ footer.page-footer .footer-copyright {
 button.btn.btn{
     background: white;
     text-align: center;
-    margin-left: 30%;
-    margin-top:10%;
-
+   
 }
-form{
+div#form{
     display: block;
+    text-align: center;
+}
+div.card.card-image{
+    background-size:auto;
 }
 
   

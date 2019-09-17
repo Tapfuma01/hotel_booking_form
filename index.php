@@ -125,7 +125,7 @@ session_start();
 
 <!--Form without header-->
 <div class="card card-image"
-  style="background-image: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;"class="img-fluid">
+  style="background-image: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;">
   <div class="text-white rgba-stylish-strong py-5 px-5">
     <!--Header-->
     <div class="text-center">
@@ -135,7 +135,7 @@ session_start();
 
     <!--Body-->
     <div id='form'>
-<form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+<form class="text-center"role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
 <label>First Name<input type="text" name="firstname"  required></label><br>
 <label>Surname<input type="text" name="surname" required></label><br>
@@ -150,7 +150,7 @@ session_start();
 
 <label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
 <label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
-<button class="btn btn-outline-white"name="submit">BOOK<i class="fas fa-heart pl-1"></i></button>
+<button class="btn btn black text-center"name="submit">BOOK</i></button>
 
 
 </form>
@@ -330,27 +330,7 @@ echo '<div id="confirmed">'."Thank You".'</div>';
                   </div>
 
     </div>
-    <!-- Footer Elements -->
-<div class="container1">
-  <div class="row">
-<!-- Social buttons -->
-<div class="col-md-4">
-  <!--Facebook-->
-<button type="button" class="btn btn-fb"><i class="fab fa-facebook-f "></i><strong>FACEBOOK</strong></button>
-</div>
-<div class="col-md-4">
-  <!--Twitter-->
-<button type="button" class="btn btn-tw"><i class="fab fa-twitter "></i> <strong>TWITTER</strong></button>
-<!-- Social buttons -->
-</div>
-<div class="col-md-4">
-<!---Linkedin-->
-<button type="button" class="btn btn-li"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</button>
-</div>
-  </div>
-</div>
-<!-- Footer Elements -->
-    <!-- Footer -->
+  
 <footer class="page-footer fixed-bottom ">
 
 <!-- Copyright -->

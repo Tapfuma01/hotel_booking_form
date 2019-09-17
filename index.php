@@ -76,6 +76,9 @@ session_start();
               <div class="mask rgba-black-light"></div>
             </div>
               <h3 class="h3-responsive">City Logde Hotel</h3>
+              <h3 class="h3-responsive blue-text">R400</h3>
+              <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
+              <p class="card-text black-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
           <div class="carousel-item">
             <!--Mask color-->
@@ -83,10 +86,11 @@ session_start();
               <img class="d-block w-100" src="https://image.freepik.com/free-photo/umbrella-chair-around-swimming-pool_74190-4618.jpg" alt="Third slide">
               <div class="mask rgba-black-light"></div>
             </div>
-            <div class="carousel-caption">
               <h3 class="h3-responsive">Town lodge Hotel</h3>
-              <p>R150</p>
-            </div>
+              <h3 class="h3-responsive blue-text">R150</h3>
+              <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
+              <p class="card-text black-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
           </div>
           <div class="carousel-item">
             <!--Mask color-->
@@ -94,10 +98,10 @@ session_start();
               <img class="d-block w-100" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Third slide">
               <div class="mask rgba-black-light"></div>
             </div>
-            <div class="carousel-caption">
               <h3 class="h3-responsive">Radison Hotel</h3>
-              <p>Radison Hotel</p>
-            </div>
+              <h3 class="h3-responsive blue-text">R150</h3>
+              <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
+              <p class="card-text black-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
         

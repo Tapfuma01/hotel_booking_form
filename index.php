@@ -50,12 +50,12 @@ session_start();
               <!--Carousel Wrapper-->
 <div id="carousel" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
         <!--Indicators-->
-        <ol class="carousel-indicators">
+        <!-- <ol class="carousel-indicators">
           <li data-target="#carousel" data-slide-to="0" class="active"></li>
           <li data-target="#carousel" data-slide-to="1"></li>
           <li data-target="#carousel" data-slide-to="2"></li>
           <li data-target="#carousel" data-slide-to="3"></li>
-        </ol>
+        </ol> -->
         <!--/.Indicators-->
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
@@ -64,14 +64,10 @@ session_start();
               <img class="d-block w-100" src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide">
               <div class="mask rgba-black-light"></div>
             </div>
-            <div class="carousel-caption">
-              <h3 class="h3-responsive">Holiday Inn Hotel</h3>
-              <p>R200</p>
-            </div>
-             <!-- Title -->
-                <h4 class="card-title"><a>Holiday Inn</a></h4>
-                  <!-- Text -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <h3 class="h3-responsive">Holiday Inn Hotel</h3>
+               <h3 class="h3-responsive blue-text">R200</h3>
+               <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
+               <p class="card-text black-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
           <div class="carousel-item">
             <!--Mask color-->

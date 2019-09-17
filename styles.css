@@ -19,9 +19,6 @@ p{
     height: auto;
     justify-content: center;
     font-family: 'Fjalla One';
-   
-  
-   
 }
 .container1{
   
@@ -56,7 +53,6 @@ input {
     
 }
 
-
 .duplicate{
    
    background:url(https://images.pexels.com/photos/2820254/pexels-photo-2820254.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
@@ -89,8 +85,6 @@ input {
     text-align: center;
 }
 
-
-
 button{
     background:blue;
     width: 40%;
@@ -99,30 +93,22 @@ button{
     font-family: 'Fjalla One';
    
 }
-
-
 #confirmed{
     height:200px;
     width: auto;
-    border: 0.4rem;
     color:white;
     font-weight: bold;
     font-size: 1.5rem;
     font-family: 'Fjalla One';
     text-align: center;
-    background: url(https://images.pexels.com/photos/208147/pexels-photo-208147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-   
+    background: url(https://images.pexels.com/photos/1589887/pexels-photo-1589887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: contain;
    
 }
-div.footer{
-    
-}
+
 footer.page-footer .footer-copyright {
     overflow: hidden;
-   
     background: white;
-    
- 
 }
 button.btn.btn{
     background: white;

@@ -69,7 +69,6 @@ input {
     animation:blinkingText 0.8s;
     animation-iteration-count: 5;
     font-family: 'Fjalla One';
-    background: rgba(0,0,0,0.2);
     text-align: center;
    
     
@@ -103,20 +102,18 @@ button{
 
 
 #confirmed{
-    height:auto;
+    height:200px;
     width: auto;
     border: 0.4rem;
     color:white;
     font-weight: bold;
     font-size: 1.5rem;
-    animation:blinkingText 0.8s;
-    animation-iteration-count: 5;
     font-family: 'Fjalla One';
-    background: rgba(0,0,0,0.2);
     text-align: center;
+    background: url(https://images.pexels.com/photos/208147/pexels-photo-208147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
    
    
-}å
+}
 div.footer{
     
 }

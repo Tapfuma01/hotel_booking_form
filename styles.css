@@ -28,9 +28,9 @@ p{
     margin-bottom: 10%;
 }
    nav.navbar{
-    background:rgba(62,69,81,.7);
-    background: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background:rgba(0,0,0,0.2);
     font-family: 'Fjalla One';
+    background: url(https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
    
    }
    
@@ -48,6 +48,7 @@ input {
     width: 30%;
     padding: 5px 15px;
     font-family: 'Fjalla One';
+    margin-top: 5%;
    
     
 }
@@ -107,13 +108,14 @@ button{
    
 }
 
-footer.page-footer .footer-copyright {
+footer.page-footer {
     overflow: hidden;
     background: white;
 }
 button.btn.btn{
-    background: white;
+    background:black;
     text-align: center;
+    color: white;
    
 }
 div#form{

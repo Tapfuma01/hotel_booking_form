@@ -35,7 +35,7 @@ session_start();
   <!-- As a heading -->
 <nav class="navbar navbar">
 <div class="text-center">
-      <h3 class="white-text weight-bold"><strong>tapfHOTEL</strong> <a
+      <h3 class="blue-text weight-bold"><strong>tapfHOTEL</strong> <a
           class="blue-text font-weight-bold"><strong> BOOKING</strong></a></h3>
     </div>
 
@@ -334,7 +334,7 @@ echo '<div id="confirmed">'."Thank You".'</div>';
 <footer class="page-footer fixed-bottom ">
 
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2019 Copyright:
+<div class="footer-copyright text-center py-4 blue-text font-weight-bold">© 2019 Copyright:
   <a href=""> tapfDESIGNS.com</a>
 </div>
 <!-- Copyright -->

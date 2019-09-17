@@ -75,10 +75,7 @@ session_start();
               <img class="d-block w-100" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Second slide">
               <div class="mask rgba-black-light"></div>
             </div>
-            <div class="carousel-caption">
               <h3 class="h3-responsive">City Logde Hotel</h3>
-              <p>R400</p>
-            </div>
           </div>
           <div class="carousel-item">
             <!--Mask color-->

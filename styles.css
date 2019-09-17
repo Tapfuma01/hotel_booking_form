@@ -1,6 +1,6 @@
 body{
     background-color:lavender;
-    background-image: url(https://images.pexels.com/photos/1579062/pexels-photo-1579062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     font-family: 'Fjalla One';
    
@@ -81,7 +81,7 @@ input {
     animation:blinkingText 0.8s;
     animation-iteration-count: 5;
     font-family: 'Fjalla One';
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.4);
     text-align: center;
 }
 
@@ -94,14 +94,16 @@ button{
 }
 #confirmed{
     height:200px;
-    width: auto;
+    width: 200px;
     color:white;
     font-weight: bold;
     font-size: 1.5rem;
     font-family: 'Fjalla One';
-    text-align: center;
-    background:url(images/funny.jpg);
+    margin-top: 3%;
+    text-align:center;
+    background:url(https://img2.androidappsapk.co/300/a/3/a/com.grassypastures.icosmileycyan.png);
     background-size: contain;
+    border-radius: 100%;
    
 }
 

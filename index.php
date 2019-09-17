@@ -68,6 +68,10 @@ session_start();
               <h3 class="h3-responsive">Holiday Inn Hotel</h3>
               <p>R200</p>
             </div>
+             <!-- Title -->
+                <h4 class="card-title"><a>Holiday Inn</a></h4>
+                  <!-- Text -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
           <div class="carousel-item">
             <!--Mask color-->
@@ -149,7 +153,7 @@ session_start();
 
 <label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
 <label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
-<button class="submit" name="submit" type="submit">Submit</button>
+<button class="btn btn-outline-white"name="submit">BOOK<i class="fas fa-heart pl-1"></i></button>
 
 
 </form>
@@ -299,7 +303,7 @@ $hotelname=$_SESSION['hotelname'];
 $indate=$_SESSION['indate'];
 $outdate=$_SESSION['outdate'];
 $stmt->execute();
-echo '<div id="confirmed">'."Thank You For Booking".'</div>';
+echo '<div id="confirmed">'."Thank You".'</div>';
 
 }
 

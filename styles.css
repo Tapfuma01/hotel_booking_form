@@ -95,16 +95,16 @@ button{
 #confirmed{
     height:200px;
     width: 200px;
-    color:white;
+    color:black;
     font-weight: bold;
     font-size: 1.5rem;
     font-family: 'Fjalla One';
     margin-top: 3%;
     text-align:center;
     background:url(https://img2.androidappsapk.co/300/a/3/a/com.grassypastures.icosmileycyan.png);
-    background-size: contain;
-    border-radius: 100%;
     margin-left: 5%;
+    text-align: center;
+    background-size: contain;
    
 }
 

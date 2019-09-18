@@ -300,7 +300,7 @@ $hotelname=$_SESSION['hotelname'];
 $indate=$_SESSION['indate'];
 $outdate=$_SESSION['outdate'];
 $stmt->execute();
-echo '<div id="confirmed">'."Thank You".'</div>';
+echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
 
 }
 

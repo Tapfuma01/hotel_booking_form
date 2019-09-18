@@ -134,8 +134,8 @@ session_start();
       <option value="Town Lodge">Town Lodge</option>
   </select>
   </label>
-  <label for="date-picker-example class="mb-1">In Date<input id="date-picker-example"class="form-control datepicker" type="date" name="indate" placeholder='indate' required></label>
-  <label for="date-picker-example class="mb-1">Out Date<input id="date-picker-example"class="form-control datepicker" type="date" name="outdate" placeholder='outdate' required></label>
+  <label for="date-picker class="mb-1">In Date<input id="date-picker-example"class="form-control datepicker" type="date" name="indate" placeholder='indate' required></label>
+  <label for="date-picker class="mb-1">Out Date<input id="date-picker-example"class="form-control datepicker" type="date" name="outdate" placeholder='outdate' required></label>
   <button class="btn btn black text-center"name="submit">BOOK</i></button>
   </form>
   </div>

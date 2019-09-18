@@ -30,8 +30,8 @@
 <body>
   <!-- As a heading -->
 <nav class="navbar navbar">
-      <h3 class="blue-text weight-bold"><strong>tapfHOTEL</strong> <a
-          class="blue-text font-weight-bold"><strong> BOOKING</strong></a></h3>
+      <h3 class="white-text weight-bold"><strong>tapfHOTEL</strong> <a
+          class="white-text font-weight-bold"><strong> BOOKING</strong></a></h3>
 </nav>
   
 <div class="text-center">

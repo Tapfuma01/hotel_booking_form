@@ -10,11 +10,9 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    
-    
             <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Bootstrap core CSS -->
@@ -44,8 +42,8 @@ session_start();
    
         <br>
         <!--HOTEL IMAGES AND PRICES-->
-    <div class="container">
-            <div class="row text-">
+  <div class="container">
+  <div class="row text-">
             <div class="col-md-4">
               <!--Carousel Wrapper-->
 <div id="carousel" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
@@ -127,19 +125,18 @@ session_start();
     <div id='form'>
   <form class="text-center"role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">      
 
-  <label>First Name<input type="text" name="firstname"  required></label><br>
-  <label>Surname<input type="text" name="surname" required></label><br>
-  <label>Hotel Name
+  <label class="mb-1">First Name<input type="text" name="firstname"  required></label>
+  <label  class="mb-1">Surname<input type="text" name="surname" required></label>
+  <label  class="mb-1">Hotel Name
   <select class="browser-default custom-select mb-4" name="hotelname" required>
       <option value="Holiday Inn">Holiday Inn</option>
       <option value="Radison">Radison</option>
       <option value="City Lodge">City Lodge</option>
       <option value="Town Lodge">Town Lodge</option>
   </select>
-  </label><br>
-
-  <label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
-  <label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
+  </label>
+  <label for="date-picker-example class="mb-1">In Date<input id="date-picker-example"class="form-control datepicker" type="date" name="indate" placeholder='indate' required></label>
+  <label for="date-picker-example class="mb-1">Out Date<input id="date-picker-example"class="form-control datepicker" type="date" name="outdate" placeholder='outdate' required></label>
   <button class="btn btn black text-center"name="submit">BOOK</i></button>
   </form>
   </div>
@@ -268,6 +265,7 @@ echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
 </div> 
     
 </section>
+  </div>
 
 </div>
   

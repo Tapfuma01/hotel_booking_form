@@ -55,7 +55,7 @@ input {
 
 .duplicate{
    
-   background:url(https://images.pexels.com/photos/2820254/pexels-photo-2820254.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+   background: rgba(0, 0, 0, 0.4);
    height:auto;
     width: auto;
     border: 0.4rem;
@@ -101,10 +101,12 @@ button{
     font-family: 'Fjalla One';
     margin-top: 3%;
     text-align:center;
-    background:url(https://img2.androidappsapk.co/300/a/3/a/com.grassypastures.icosmileycyan.png);
-    margin-left: 5%;
+    background:url(https://www.pngfind.com/pngs/m/4-40847_blue-smiley-face-png-transparent-png.png);
+   
     text-align: center;
-    background-size: contain;
+    background-color: inherit;
+    background-size: cover;
+   
    
 }
 

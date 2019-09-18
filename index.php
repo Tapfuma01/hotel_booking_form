@@ -11,7 +11,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
     
     
@@ -243,7 +243,7 @@ echo '<div class="return">'. "<br> Firstname:".  $_SESSION['firstname']."<br>".
 "<br>".
 "Total R" . $value ;
 
-echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'><input type='submit' name='confirm'></form>";
+echo "<form class='form-inline' role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'><input type='submit' name='confirm'></form>";
 
 }
 
@@ -271,7 +271,7 @@ echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
 
 </div>
   
-<footer class="page-footer fixed-bottom ">
+<footer class="page-footer bottom ">
 
 <!-- Copyright -->
 <div class="footer-copyright text-center py-4 blue-text font-weight-bold">© 2019 Copyright:

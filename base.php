@@ -10,14 +10,6 @@
   define ("DB_USER","root");
   define ("DB_PASSWORD","");
   define ("DB_NAME","hotels");
-
-  //$servername="localost";
-  //$username="root";
-  //$password="";
-  //$database="hotels";
-
-  
-
 ?>
 
 

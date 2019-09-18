@@ -130,7 +130,7 @@ session_start();
   <label>First Name<input type="text" name="firstname"  required></label><br>
   <label>Surname<input type="text" name="surname" required></label><br>
   <label>Hotel Name
-  <select name="hotelname" required>
+  <select class="browser-default custom-select mb-4" name="hotelname" required>
       <option value="Holiday Inn">Holiday Inn</option>
       <option value="Radison">Radison</option>
       <option value="City Lodge">City Lodge</option>

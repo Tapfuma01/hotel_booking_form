@@ -28,15 +28,36 @@
     <title>Document</title>
 </head>
 <body>
+   
+<div class="text-center">
+    <h3 class="H3 white-text font-weight-bold p-5 h1-responsive ">WELCOME TO <a
+          class="blue-text font-weight-bold"><strong> THE WORLD OF HOTELS</strong></a></h3>
+    </div>
   <!-- As a heading -->
+    
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand blue-text font-weight-bold" href="index.html">tapfHOTEL BOOKIngs</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>BOOK NOW</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>HOTELS</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>LODGES</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>APARTMENTS</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>ABOUT US</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
 <nav class="navbar navbar">
       <h3 class="white-text weight-bold"><strong>tapfHOTEL</strong> <a
           class="white-text font-weight-bold"><strong> BOOKING</strong></a></h3>
 </nav>
-  
-<div class="text-center">
-    <h3 class="H3 blue-text font-weight-bold p-5 h1-responsive ">WELCOME TO THE WORLD OF HOTELS</h3>
-    </div>
+ 
    
 <div class="containe1">
   <div class="row">

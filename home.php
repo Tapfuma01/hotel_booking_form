@@ -44,7 +44,7 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>BOOK NOW</span></a></li>
+	          <li class="nav-item"><a href="http://localhost/hotel_booking_form/index.php" class="nav-link"><span class="black-text">BOOK NOW</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>HOTELS</span></a></li>
 	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>LODGES</span></a></li>
 	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>APARTMENTS</span></a></li>
@@ -53,12 +53,7 @@
 	      </div>
 	    </div>
 	  </nav>
-<nav class="navbar navbar">
-      <h3 class="white-text weight-bold"><strong>tapfHOTEL</strong> <a
-          class="white-text font-weight-bold"><strong> BOOKING</strong></a></h3>
-</nav>
- 
-   
+    <br>
 <div class="containe1">
   <div class="row">
     <div class="col-md-4">

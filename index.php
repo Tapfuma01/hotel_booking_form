@@ -145,29 +145,24 @@ session_start();
   </div>
  </div> 
 </div>
-
-
-
 <!--/Form without header-->
 
 </section>
-<!--Section: Live preview-->
+</div>
 
-    </div>
-   <div class="col-md-4">
-    
+<div class="col-md-4">
 <?php
 require_once "connect.php";
 echo $conn->error;
 
 $sql = "CREATE TABLE IF NOT EXISTS bookings (
-   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-   firstname VARCHAR(50),
-   surname VARCHAR(50),
-   hotelname VARCHAR(50),
-   indate VARCHAR(30),
-   outdate VARCHAR(30),
-   booked INT(4))";
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+firstname VARCHAR(50),
+surname VARCHAR(50),
+hotelname VARCHAR(50),
+indate VARCHAR(30),
+outdate VARCHAR(30),
+booked INT(4))";
 
 
 $conn ->query($sql);
@@ -184,13 +179,6 @@ if (isset($_GET['error']) && $_GET['error'] == 'timestamp') {
 
       <?php
    }
-
-
-//echo '<br>'. $_POST['firstname'] .'<br>'. $_POST['lastname'].'<br>'.$_POST['hotelname'].'<br>'.$_POST['indate'].'<br>'. $_POST['outdate'];
-
-
-
-
 if (isset($_POST['submit'])) {
    $_SESSION['firstname']= $_POST['firstname'];
    $_SESSION['surname']= $_POST['surname'];

@@ -217,7 +217,7 @@ switch(isset($_SESSION['hotelname'])){
    default:
    return "ERROR!";
 }
-
+//passing a query to check if the user has booked before
 $firstname = $_POST['firstname'];
 $surname = $_POST['surname'];
 
@@ -243,9 +243,6 @@ echo '<div class="return">'. "<br> Firstname:".  $_SESSION['firstname']."<br>".
 "<br>".
 "Total R" . $value ;
 
-// echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'>
-// <button name='confirm' type='submit'> Confirm </button> </form>".'</div>';
-
 echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'><input type='submit' name='confirm'></form>";
 
 }
@@ -265,33 +262,14 @@ $stmt->execute();
 echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
 
 }
-
-// if($_POST['confirm']){
-//    $firstname =$_SESSION['firstname'];
-//    $surname =$_SESSION['surname'];
-//    $hotelname =$_SESSION['hotelname'];
-//    $indate=$_SESSION['indate'];
-//    $outdate=$_SESSION['outdate'];
-//      mysqli_query($conn, "INSERT INTO bookings (firstname, surname, hotelname,indate,outdate)
-//      VALUES ('$firstname ', '$surname','$hotelname','$indate','$outdate')");
-// }
-
-
-
-
-?>
-      
+?>     
   </div>
-            </div> 
-    </div> 
+  </div> 
+</div> 
     
 </section>
-<!--Section: Live preview-->
-            
-                  </div>
-                  </div>
 
-    </div>
+</div>
   
 <footer class="page-footer fixed-bottom ">
 

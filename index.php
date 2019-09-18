@@ -113,8 +113,8 @@ session_start();
            <!--Section: Live preview-->
 <section class="form-dark">
 
-<!--Form without header-->
-<div class="card card-image"
+  <!--Form without header-->
+ <div class="card card-image"
   style="background-image: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;">
   <div class="text-white rgba-stylish-strong py-5 px-5">
     <!--Header-->
@@ -125,26 +125,24 @@ session_start();
 
     <!--Body-->
     <div id='form'>
-<form class="text-center"role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+  <form class="text-center"role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">      
 
-<label>First Name<input type="text" name="firstname"  required></label><br>
-<label>Surname<input type="text" name="surname" required></label><br>
-<label>Hotel Name
-<select name="hotelname" required>
-  <option value="Holiday Inn">Holiday Inn</option>
-  <option value="Radison">Radison</option>
-  <option value="City Lodge">City Lodge</option>
-  <option value="Town Lodge">Town Lodge</option>
-</select>
-</label><br>
+  <label>First Name<input type="text" name="firstname"  required></label><br>
+  <label>Surname<input type="text" name="surname" required></label><br>
+  <label>Hotel Name
+  <select name="hotelname" required>
+      <option value="Holiday Inn">Holiday Inn</option>
+      <option value="Radison">Radison</option>
+      <option value="City Lodge">City Lodge</option>
+      <option value="Town Lodge">Town Lodge</option>
+  </select>
+  </label><br>
 
-<label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
-<label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
-<button class="btn btn black text-center"name="submit">BOOK</i></button>
-
-
-</form>
-</div>
+  <label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
+  <label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
+  <button class="btn btn black text-center"name="submit">BOOK</i></button>
+  </form>
+  </div>
  </div> 
 </div>
 

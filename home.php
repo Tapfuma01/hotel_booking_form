@@ -37,7 +37,7 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand blue-text font-weight-bold" href="index.html">tapfHOTEL BOOKIngs</a>
+	      <a class="navbar-brand black-text font-weight-bold" href="index.html">tapfHOTEL BOOKIngs</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -52,25 +52,27 @@
 	        </ul>
 	      </div>
 	    </div>
-	  </nav>
-    <br>
+    </nav>
+    <div class="text-center">
+    <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+    </div>
 <div class="containe1">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-10">
   <img class="img-fluid " src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
     </div>
-    <div class="col-md-4">
+    <!-- <div class="col-md-4">
     <img class="img-fluid" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
     </div>
     <div class="col-md-4">
     <img class="img-fluid"src="https://images.pexels.com/photos/988508/pexels-photo-988508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
     </div>
   </div>
-</div>
+</div> -->
 
   </div>
 </div>
-<div class="container1">
+<!-- <div class="container1">
   <div class="row">
     <div class="col-md-4">
     <img class="img-fluid" src="https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
@@ -83,7 +85,7 @@
     </div>
   </div>
 </div>
-  
+   -->
 <footer class="page-footer bottom ">
 
 <!-- Copyright -->

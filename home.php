@@ -35,7 +35,7 @@
 </nav>
   
 <div class="text-center">
-    <h3 class="H3 blue-text font-weight-bold p-5 ">WELCOME TO tapfHOTEL BOOKINGS</h3>
+    <h3 class="H3 blue-text font-weight-bold p-5 h1-responsive ">WELCOME TO THE WORLD OF HOTELS</h3>
     </div>
    
 <div class="containe1">

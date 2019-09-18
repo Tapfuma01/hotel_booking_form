@@ -49,14 +49,6 @@ session_start();
             <div class="col-md-4">
               <!--Carousel Wrapper-->
 <div id="carousel" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
-        <!--Indicators-->
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-          <li data-target="#carousel" data-slide-to="3"></li>
-        </ol> -->
-        <!--/.Indicators-->
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
@@ -115,10 +107,8 @@ session_start();
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-        <!--/.Controls-->
       </div>
-      <!--/.Carousel Wrapper-->
-            </div>
+</div>
             <div class="col-md-4">
            <!--Section: Live preview-->
 <section class="form-dark">

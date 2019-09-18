@@ -93,7 +93,7 @@ session_start();
               <h3 class="h3-responsive">Radison Hotel</h3>
               <h3 class="h3-responsive blue-text">R150</h3>
               <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
-              <p class="card-text black-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper</p>
           </div>
         </div>
         

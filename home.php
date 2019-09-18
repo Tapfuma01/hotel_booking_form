@@ -57,7 +57,7 @@
 <div class="containe1">
   <div class="row">
     <div class="col-md-4">
-  <img class="img-fluid" src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+  <img class="img-fluid " src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
     </div>
     <div class="col-md-4">
     <img class="img-fluid" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">

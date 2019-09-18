@@ -11,7 +11,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
     
     
@@ -23,7 +23,7 @@ session_start();
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
+<!-- Bootstrap tooltips --> 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -59,7 +59,7 @@ session_start();
                <h3 class="h3-responsive">Holiday Inn Hotel</h3>
                <h3 class="h3-responsive blue-text">R200</h3>
                <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
-               <p class="card-text black-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper</p>
           </div>
           <div class="carousel-item">
             <!--Mask color-->

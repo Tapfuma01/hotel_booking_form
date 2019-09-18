@@ -39,7 +39,6 @@ session_start();
 
 
 </nav>
-   
         <br>
         <!--HOTEL IMAGES AND PRICES-->
   <div class="container">

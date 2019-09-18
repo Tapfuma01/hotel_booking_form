@@ -34,7 +34,9 @@ p{
     margin-top: 1%;
 }
 .container2{
-    background-size: cover;
+    background: skyblue;
+    height: 300px;
+    
 }
    nav.navbar{
     background:rgba(0,0,0,0.2);

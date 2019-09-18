@@ -33,7 +33,12 @@
       <h3 class="blue-text weight-bold"><strong>tapfHOTEL</strong> <a
           class="blue-text font-weight-bold"><strong> BOOKING</strong></a></h3>
 </nav>
-<div class="container">
+  
+<div class="text-center">
+    <h3 class="H3 blue-text font-weight-bold p-5 ">WELCOME TO tapfHOTEL BOOKINGS</h3>
+    </div>
+   
+<div class="containe1">
   <div class="row">
     <div class="col-md-4">
   <img class="img-fluid" src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
@@ -46,17 +51,10 @@
     </div>
   </div>
 </div>
-<div class="container1">
-  <div class="row">
-    <div class="text-center">
-    <div class="col-md-12">
-    <h3>WELCOME TO tapfHOTEL BOOKINGS</h3>
-    </div>
-   
-    </div>
+
   </div>
 </div>
-<div class="container">
+<div class="container1">
   <div class="row">
     <div class="col-md-4">
     <img class="img-fluid" src="https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">

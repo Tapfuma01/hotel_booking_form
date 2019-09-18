@@ -2,8 +2,6 @@
 <html>
 <body>
 
-
-
 <?php
 
   define ("DB_SERVER","localhost");

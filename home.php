@@ -56,9 +56,9 @@
     <div class="text-center">
     <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
     </div>
-<div class="containe1">
+<div class="container2">
   <div class="row">
-    <div class="col-md-10">
+    <div class="col-md-12">
   <img class="img-fluid " src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
     </div>
     <!-- <div class="col-md-4">

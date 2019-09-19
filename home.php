@@ -9,8 +9,6 @@
     <script src="date.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    
-    
             <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Bootstrap core CSS -->

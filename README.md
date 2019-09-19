@@ -1,5 +1,4 @@
 # hotel_booking_form
-
      # Project Title
 *  HOTEL BOOKING FORM
 This is a task handling application whereby the user is able to book a certain hotel and receive confirmation.The application saves the data in the database and also notify us if the user has already made a previous booking.

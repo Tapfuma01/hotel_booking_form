@@ -124,7 +124,7 @@ session_start();
 
   <!--Form without header-->
  <div class="card card-image"
-  style="background-image: url(https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;">
+  style="background-image: url(https://images.pexels.com/photos/2929952/pexels-photo-2929952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;">
   <div class="text-white rgba-stylish-strong py-5 px-5">
     <!--Header-->
     <div class="text-center">
@@ -238,7 +238,7 @@ Lastname: " . $row['surname'].
 "<br> End Date: " . $row['outdate'].
 "<br> Hotel Name: " . $row['hotelname'].
 "<br>" . $interval->format('%r%a days') . "<br> Total: R " . $value ."</div>";
-    } 
+    }
 }
 
 //Display booking info for the user
@@ -277,9 +277,64 @@ echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
     
 </section>
   </div>
-
+<br>
 </div>
-  
+<h3 class=" H3 h3-responsive-LG font-weight-bold p-5">HOTELS</h3>
+<div class="container4">
+  <div class="row">
+    <div class="col-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/2662653/pexels-photo-2662653.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+    <div class="col-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+    <div class="col-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/2725671/pexels-photo-2725671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/2290738/pexels-photo-2290738.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/172872/pexels-photo-172872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/316001/pexels-photo-316001.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+    <div class="col-md-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/2105326/pexels-photo-2105326.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+    <div class="col-md-4">
+    <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://images.pexels.com/photos/751343/pexels-photo-751343.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+  </div>
+    </div>
+  </div>
+</div>
 <footer class="page-footer bottom ">
 
 <!-- Copyright -->

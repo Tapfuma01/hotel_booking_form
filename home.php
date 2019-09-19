@@ -53,29 +53,21 @@
 	      </div>
 	    </div>
     </nav>
-    <div class="text-center">
-    <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
-    </div>
+    
 <div class="container2">
   <div class="row">
     <div class="col-md-12">
-  <
+    <div class="text-center">
+    <h3 class="H3 white-text font-weight-bold p-5 p1-responsive ">TO ENJOY OUR HOSPITALITY</h3>
+          <p><a href="http://localhost/hotel_booking_form/index.php" class="btn btn-primary lg py-3 px-4">BOOK NOW</a><a href="#" class="btn btn-white btn-outline-white py-3 px-4">LOOKBOOK</a></p>
     </div>
-    <!-- <div class="col-md-4">
-    <img class="img-fluid" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
     </div>
-    <div class="col-md-4">
-    <img class="img-fluid"src="https://images.pexels.com/photos/988508/pexels-photo-988508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-    </div>
-  </div>
-</div> -->
-
   </div>
 </div>
 <!-- <div class="container1">
   <div class="row">
     <div class="col-md-4">
-    <img class="img-fluid" src="https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+    <img class="img-fluid" src="" alt="">
     </div>
     <div  class="col-md-4">
     <img class="img-fluid"src="https://images.pexels.com/photos/417377/pexels-photo-417377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">

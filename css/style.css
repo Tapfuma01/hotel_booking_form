@@ -25,17 +25,23 @@ h1 {
 p{
     color: white;
 }
-.container{
+
+.container0{
    
     width: 100%;
-    height: auto;
+    height: 400px;
     justify-content: center;
     font-family: 'Fjalla One';
-    margin-top: 1%;
+    
 }
 .container2{
     background: skyblue;
-    height: 300px;
+    height: 450px;
+    background:url(https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.container3{
+    background:url();
+    height: 450px;
     
 }
    nav.navbar{

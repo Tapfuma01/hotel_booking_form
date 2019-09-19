@@ -41,7 +41,7 @@ session_start();
 </nav>
         <br>
         <!--HOTEL IMAGES AND PRICES-->
-  <div class="container">
+  <div class="container0">
   <div class="row text-">
             <div class="col-md-4">
               <!--Carousel Wrapper-->
@@ -271,7 +271,7 @@ echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
 <footer class="page-footer bottom ">
 
 <!-- Copyright -->
-<div class="footer-copyright text-center p-1 py-3 blue-text font-weight-bold">© 2019 Copyright:
+<div class="footer-copyright text-center  p-1 py-3 blue-text font-weight-bold">© 2019 Copyright:
   <a href=""> tapfDESIGNS.com</a>
 </div>
 <!-- Copyright -->

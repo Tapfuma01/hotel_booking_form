@@ -43,10 +43,10 @@ session_start();
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="http://localhost/hotel_booking_form/home.php" class="nav-link"><span class="blue-text font-weight-bold">HOME</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span class="white-text font-weight-bold">HOTELS</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span class="white-text font-weight-bold">LODGES</span></a></li>
-	          <li class="nav-item"><a href="#services-section" class="nav-link"><span class="white-text font-weight-bold">APARTMENTS</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span class="white-text font-weight-bold">ABOUT US</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span class="black-text font-weight-bold">HOTELS</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span class="black-text font-weight-bold">LODGES</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span class="black-text font-weight-bold">APARTMENTS</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span class="black-text font-weight-bold">ABOUT US</span></a></li>
 	        </ul>
 	      </div>
 	    </div>

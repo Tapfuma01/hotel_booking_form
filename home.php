@@ -37,18 +37,18 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand black-text font-weight-bold" href="index.html">tapfHOTEL BOOKIngs</a>
+	      <a class="navbar-brand blue-text font-weight-bold" href="http://localhost/hotel_booking_form/home.php">tapfHOTEL BOOKIngs</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="http://localhost/hotel_booking_form/index.php" class="nav-link"><span class="black-text">BOOK NOW</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>HOTELS</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>LODGES</span></a></li>
-	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>APARTMENTS</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>ABOUT US</span></a></li>
+	          <li class="nav-item"><a href="http://localhost/hotel_booking_form/index.php" class="nav-link"><span class="black-text font-weight-bold">BOOK NOW</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span class="white-text font-weight-bold">HOTELS</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span class="white-text font-weight-bold">LODGES</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span class="white-text font-weight-bold">APARTMENTS</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span class="white-text font-weight-bold">ABOUT US</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -64,20 +64,7 @@
     </div>
   </div>
 </div>
-<!-- <div class="container1">
-  <div class="row">
-    <div class="col-md-4">
-    <img class="img-fluid" src="" alt="">
-    </div>
-    <div  class="col-md-4">
-    <img class="img-fluid"src="https://images.pexels.com/photos/417377/pexels-photo-417377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-    </div>
-    <div class="col-md-4">
-    <img class="img-fluid" src="https://images.pexels.com/photos/751268/pexels-photo-751268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-    </div>
-  </div>
-</div>
-   -->
+
 <footer class="page-footer bottom ">
 
 <!-- Copyright -->

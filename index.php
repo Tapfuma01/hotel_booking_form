@@ -31,14 +31,26 @@ session_start();
 </head>
 <body>
   <!-- As a heading -->
-<nav class="navbar navbar">
-<div class="text-center">
-      <h3 class="blue-text weight-bold"><strong>tapfHOTEL</strong> <a
-          class="blue-text font-weight-bold"><strong> BOOKING</strong></a></h3>
-    </div>
 
+  
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand blue-text font-weight-bold" href="http://localhost/hotel_booking_form/home.php">tapfHOTEL BOOKIngs</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-</nav>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="http://localhost/hotel_booking_form/home.php" class="nav-link"><span class="blue-text font-weight-bold">HOME</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span class="white-text font-weight-bold">HOTELS</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span class="white-text font-weight-bold">LODGES</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span class="white-text font-weight-bold">APARTMENTS</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span class="white-text font-weight-bold">ABOUT US</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+    </nav>
         <br>
         <!--HOTEL IMAGES AND PRICES-->
   <div class="container0">
@@ -53,12 +65,10 @@ session_start();
               <img class="d-block w-100" src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide">
               <div class="mask rgba-black-light"></div>
             </div>
-               <h3 class="h3-responsive">Holiday Inn Hotel</h3>
-               <br>
-               <h3 class="h3-responsive blue-text">R200</h3>
-               <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
-               <br>
-               <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis</p>
+               <h3 class="h3-responsive py-2 px-3">Holiday Inn Hotel</h3>
+               <h3 class="h3-responsive blue-text px-3">R200</h3>
+               <p class="card-text black-text  px-3">Rating: 5<i class="fas fa-star"></i></p>
+               <p class="card-text black-text  px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis  Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis</p>
           </div>
           <div class="carousel-item">
             <!--Mask color-->
@@ -66,10 +76,10 @@ session_start();
               <img class="d-block w-100" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Second slide">
               <div class="mask rgba-black-light"></div>
             </div>
-              <h3 class="h3-responsive">City Logde Hotel</h3>
-              <h3 class="h3-responsive blue-text">R400</h3>
-              <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
-              <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper</p>
+              <h3 class="h3-responsive py-2 px-3">City Logde Hotel</h3>
+              <h3 class="h3-responsive blue-text px-3">R400</h3>
+              <p class="card-text black-text px-3">Rating: 5<i class="fas fa-star"></i></p>
+              <p class="card-text black-text px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis  Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis</p>
           </div>
           <div class="carousel-item">
             <!--Mask color-->
@@ -77,10 +87,10 @@ session_start();
               <img class="d-block w-100" src="https://image.freepik.com/free-photo/umbrella-chair-around-swimming-pool_74190-4618.jpg" alt="Third slide">
               <div class="mask rgba-black-light"></div>
             </div>
-              <h3 class="h3-responsive">Town lodge Hotel</h3>
-              <h3 class="h3-responsive blue-text">R150</h3>
-              <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
-              <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper</p>
+              <h3 class="h3-responsive py-2 px-3">Town lodge Hotel</h3>
+              <h3 class="h3-responsive blue-text px-3">R150</h3>
+              <p class="card-text black-text px-3">Rating: 5<i class="fas fa-star"></i></p>
+              <p class="card-text black-text  px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis  Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis</p>
               
           </div>
           <div class="carousel-item">
@@ -89,10 +99,10 @@ session_start();
               <img class="d-block w-100" src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Third slide">
               <div class="mask rgba-black-light"></div>
             </div>
-              <h3 class="h3-responsive">Radison Hotel</h3>
-              <h3 class="h3-responsive blue-text">R150</h3>
-              <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
-              <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper</p>
+              <h3 class="h3-responsive py-2 px-3" >Radison Hotel</h3>
+              <h3 class="h3-responsive blue-text px-3">R150</h3>
+              <p class="card-text black-text px-3">Rating: 5<i class="fas fa-star"></i></p>
+              <p class="card-text black-text px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis  Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis</p>
           </div>
         </div>
         
@@ -114,7 +124,7 @@ session_start();
 
   <!--Form without header-->
  <div class="card card-image"
-  style="background-image: url(https://images.pexels.com/photos/2889681/pexels-photo-2889681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;">
+  style="background-image: url(https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;">
   <div class="text-white rgba-stylish-strong py-5 px-5">
     <!--Header-->
     <div class="text-center">

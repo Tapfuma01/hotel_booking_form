@@ -10,7 +10,7 @@ There is no installation required
 ## Deployment
 To deploy it live you need xamp to access apache server
 ## Built With
-* VISUAL STUDIO CODE, PHP,BOOTSTRAP AND 
+* VISUAL STUDIO CODE, PHP,BOOTSTRAP,HTML
 ## Author
 TAPFUMA E MHUNDWA
 ## Acknowledgments

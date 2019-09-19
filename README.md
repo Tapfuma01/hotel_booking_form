@@ -6,7 +6,7 @@ This is a task handling application whereby the user is able to book a certain h
 ### Prerequisites
 To run the app you need to use Visual Studio, a web-browser,an online server like xamp and the the right link for the app.
 ### Installing
-There is no installation required
+There is no installation required.
 ## Deployment
 To deploy it live you need xamp to access apache server
 ## Built With

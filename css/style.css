@@ -15,7 +15,7 @@ h1 {
     font-weight: 400;
     margin-top: 1%;
     text-align: center;
-    background:rgba(0,0,0,0.2);
+    background:rgba(0,0,0,0.5);
     background-size: cover;
     color: white;
     height: 130px;
@@ -39,7 +39,7 @@ p{
 .container2{
     background: skyblue;
     height: 450px;
-    background:url(https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background:url(https://images.pexels.com/photos/2506988/pexels-photo-2506988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 .container3{
     background:url();

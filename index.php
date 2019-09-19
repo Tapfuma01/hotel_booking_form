@@ -284,7 +284,7 @@ echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
   <div class="row">
     <div class="col-4">
     <div class="mb-3 pics animation all 1">
-    <img class="img-fluid" src="https://images.pexels.com/photos/2662653/pexels-photo-2662653.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+    <img class="img-fluid" src="https://images.pexels.com/photos/261372/pexels-photo-261372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
   </div>
     </div>
     <div class="col-4">
@@ -298,34 +298,15 @@ echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
   </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-sm-4">
-    <div class="mb-3 pics animation all 1">
-    <img class="img-fluid" src="https://images.pexels.com/photos/2290738/pexels-photo-2290738.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
-  </div>
-    </div>
-    <div class="col-sm-4">
-    <div class="mb-3 pics animation all 1">
-    <img class="img-fluid" src="https://images.pexels.com/photos/172872/pexels-photo-172872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
-  </div>
-    </div>
-    <div class="col-sm-4">
-    <div class="mb-3 pics animation all 1">
-    <img class="img-fluid" src="https://images.pexels.com/photos/316001/pexels-photo-316001.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
-  </div>
-    </div>
-  </div>
-
   <div class="row">
     <div class="col-md-4">
     <div class="mb-3 pics animation all 1">
-    <img class="img-fluid" src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+    <img class="img-fluid" src="https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
   </div>
     </div>
     <div class="col-md-4">
     <div class="mb-3 pics animation all 1">
-    <img class="img-fluid" src="https://images.pexels.com/photos/2105326/pexels-photo-2105326.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+    <img class="img-fluid" src="https://images.pexels.com/photos/1134178/pexels-photo-1134178.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
   </div>
     </div>
     <div class="col-md-4">

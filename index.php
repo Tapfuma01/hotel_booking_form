@@ -54,9 +54,11 @@ session_start();
               <div class="mask rgba-black-light"></div>
             </div>
                <h3 class="h3-responsive">Holiday Inn Hotel</h3>
+               <br>
                <h3 class="h3-responsive blue-text">R200</h3>
                <p class="card-text black-text">Rating: 5<i class="fas fa-star"></i></p>
-               <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper</p>
+               <br>
+               <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper Maecenas non nulla eget ligula semper sagittis sed, adipiscing nec felis</p>
           </div>
           <div class="carousel-item">
             <!--Mask color-->

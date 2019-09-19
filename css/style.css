@@ -29,9 +29,11 @@ p{
 .container0{
    
     width: 100%;
-    height: 400px;
+    height:auto;
     justify-content: center;
     font-family: 'Fjalla One';
+    margin: 0% 0% 5% 3%;
+    margin-bottom: 2%;
     
 }
 .container2{

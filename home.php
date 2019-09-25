@@ -124,7 +124,7 @@ session_start();
 
   <!--Form without header-->
  <div class="card card-image"
-  style="background-image: url(https://images.pexels.com/photos/2929952/pexels-photo-2929952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;">
+  style="background-image: url(https://images.pexels.com/photos/414062/pexels-photo-414062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width:auto;">
   <div class="text-white rgba-stylish-strong py-5 px-5">
     <!--Header-->
     <div class="text-center">

@@ -35,7 +35,7 @@ session_start();
   
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand blue-text font-weight-bold" href="http://localhost/hotel_booking_form/index.php">tapfHOTEL BOOKIngs</a>
+	      <a class="navbar-brand black-text font-weight-bold" href="http://localhost/hotel_booking_form/index.php">TAPFHOTEL BOOKIngs</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -148,7 +148,7 @@ session_start();
   </label>
   <label for="date-picker class="mb-1">In Date<input id="date-picker-example"class="form-control datepicker" type="date" name="indate" placeholder='indate' required></label>
   <label for="date-picker class="mb-1">Out Date<input id="date-picker-example"class="form-control datepicker" type="date" name="outdate" placeholder='outdate' required></label>
-  <button class="btn btn black text-center"name="submit">BOOK</i></button>
+  <button class="btn btn black-sm text-center "name="submit">BOOK</i></button>
   </form>
   </div>
  </div> 
@@ -267,7 +267,7 @@ $hotelname=$_SESSION['hotelname'];
 $indate=$_SESSION['indate'];
 $outdate=$_SESSION['outdate'];
 $stmt->execute();
-echo '<div class="black" id="confirmed">'."Thank You For Booking ".'</div>';
+echo '<div id="confirmed">'."Thank You For Booking ".'</div>';
 
 }
 ?>     
@@ -319,7 +319,7 @@ echo '<div class="black" id="confirmed">'."Thank You For Booking ".'</div>';
 <footer class="page-footer bottom ">
 
 <!-- Copyright -->
-<div class="footer-copyright text-center  p-1 py-3 blue-text font-weight-bold">© 2019 Copyright:
+<div class="footer-copyright text-center  p-1 py-3 black-text font-weight-bold">© 2019 Copyright:
   <a href=""> tapfDESIGNS.com</a>
 </div>
 <!-- Copyright -->
